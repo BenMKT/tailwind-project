@@ -47,7 +47,7 @@ jobs:
         run: |
           npm install --save-dev tailwindcss@latest postcss@latest autoprefixer@latest @fullhuman/postcss-purgecss
       - name: Tailwind CSS Report
-        run: npx tailwindcss build "./src/**/*.{css,scss}" -o build/index.css
+        run: npx tailwindcss build src/index.css -o build/index.css
   nodechecker:
     name: node_modules checker
     runs-on: ubuntu-22.04
