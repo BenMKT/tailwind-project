@@ -16,10 +16,11 @@
 
     /* Linting */
     "strict": true,
+    "strictNullChecks": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["src"],
+  "include": ["src", ".eslintrc.cjs", "postcss.config.js", "tailwind.config.js", "vite.config.ts"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
