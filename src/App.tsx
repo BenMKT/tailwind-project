@@ -25,7 +25,7 @@ function App() {
             <div className="mt-4 sm:mt-8">
               <a
                 href="#"
-                className="bg-indigo-500 hover:bg-indigo-400 hover:-translate-y-0.5 transform transition focus:ring focus:ring-offset-2 focus:ring-indigo-500 focus:ring-opacity-50 active:bg-indigo-600 text-white px-5 py-3 inline-block rounded-lg shadow-lg uppercase tracking-wider font-semibold text-xs sm:text-sm "
+                className="btn "
               >
                 Book your escape
               </a>
