@@ -1,3 +1,5 @@
 {
-  "extends": ["stylelint-config-recommended", "stylelint-config-tailwindcss"]
+  "extends": ["stylelint-config-recommended", "stylelint-config-recommended-scss", "stylelint-config-tailwindcss"],
+  "plugins": ["stylelint-order"],
+  "rules": { }
 }
