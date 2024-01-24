@@ -1,5 +1,4 @@
 {
   "extends": ["stylelint-config-recommended", "stylelint-config-tailwindcss"],
-  "plugins": ["stylelint-order"],
   "rules": { }
 }
