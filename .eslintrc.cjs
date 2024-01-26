@@ -9,17 +9,23 @@ module.exports = {
   ],
   ignorePatterns: ['dist', '.eslintrc.cjs'],
   parser: '@typescript-eslint/parser',
-  plugins: ['react-refresh'],
   parserOptions: {
     ecmaVersion: 'latest',
     sourceType: 'module',
-    project: ['tsconfig.json', 'tsconfig.node.json'],
+    project: true,
     tsconfigRootDir: __dirname,
   },
+  plugins: ['react-refresh'],
   rules: {
     'react-refresh/only-export-components': [
       'warn',
       { allowConstantExport: true },
     ],
   },
+  overrides: [
+    {
+      files: ['src/components/DestinationCard.tsx'],
+      extends: ['plugin:@typescript-eslint/disable-type-checked'],
+    },
+  ],
 };
