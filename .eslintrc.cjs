@@ -24,7 +24,7 @@ module.exports = {
   },
   overrides: [
     {
-      files: ['src/components/DestinationCard.tsx'],
+      files: ['src/components/DestinationCard.tsx', 'tailwind-full.config.js'],
       extends: ['plugin:@typescript-eslint/disable-type-checked'],
     },
   ],
