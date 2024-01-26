@@ -8,11 +8,11 @@
     "allowSyntheticDefaultImports": true
   },
   "include": [
-    "src",
     ".eslintrc.cjs",
     "postcss.config.js",
     "tailwind.config.js",
     "vite.config.ts",
-    "popularDestinations.ts"
+    "**/*.ts",
+    "**/*.tsx"
   ]
 }
