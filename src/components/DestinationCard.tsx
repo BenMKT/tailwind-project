@@ -1,9 +1,9 @@
 import React from 'react';
 import { Destination } from '../Types/destination'; // Import the Destination interface
 
-type DestinationCardProps = {
+interface DestinationCardProps {
   destination: Destination; // Use the Destination interface as a prop type
-};
+}
 
 export default function DestinationCard({ destination }: DestinationCardProps) {
   return (
