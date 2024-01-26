@@ -1,6 +1,7 @@
 import React from 'react';
 import popularDestinations from './Data/popularDestinations';
 import DestinationCard from './components/DestinationCard';
+import { Destination } from './Types/destination';
 
 function App() {
   return (
