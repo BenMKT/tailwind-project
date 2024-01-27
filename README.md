@@ -29,7 +29,7 @@
   - [License](#license)
 
 ## About the Project
-Welcome! This is a dynamic React application, meticulously crafted with TypeScript.<br> My primary objective? To master the art of responsive design using nothing but Tailwind CSS thus exploring the power of modern web development!
+Welcome!<br> This is a dynamic React application, meticulously crafted with TypeScript.<br> My primary objective?<br> To master the art of responsive design using nothing but Tailwind CSS thus exploring the power of modern web development!
 
 ### Built With
 This project was built using these technologies:
@@ -81,7 +81,7 @@ export default {
 - Feature3
 
 ## Contributing
-I welcome contributions to enhance the functionality and user experience of the Ultimate Budget Assistant Application. If you have any ideas, suggestions, or bug reports, feel free to open an issue or submit a pull request. Let's share ideas!
+I welcome educational contributions to enhance the functionality and user experience of the landing page using TailwindCSS. If you have any ideas, suggestions, or bug reports, feel free to open an issue or submit a pull request. Let's share ideas!
 
 If you'd like to contribute to this project, please follow these steps:
 
